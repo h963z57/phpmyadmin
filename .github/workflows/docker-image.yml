@@ -1,6 +1,6 @@
 name: CI
 on:
-  commit:
+  inputs:
     branches:
       - master
 jobs:
