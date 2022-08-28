@@ -2,6 +2,10 @@ name: CI
 on:
   schedule:
     - cron: '16 6 * * *'
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 jobs:
   build_and_pub:
     runs-on: [ubuntu-latest]
