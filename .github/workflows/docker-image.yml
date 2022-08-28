@@ -1,4 +1,4 @@
-name: CI
+name: CI\CD_phpMyAdmin
 on:
   schedule:
     - cron: '16 6 * * *'
