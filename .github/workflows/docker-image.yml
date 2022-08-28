@@ -1,7 +1,7 @@
 name: CI
 on:
   schedule:
-    - cron: '*/6 * * * *'
+    - cron: '15 11 * * *'
 jobs:
   build_and_pub:
     runs-on: [ubuntu-latest]
