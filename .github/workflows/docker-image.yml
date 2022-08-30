@@ -1,7 +1,7 @@
 name: CI\CD_phpMyAdmin
 on:
-  schedule:
-    - cron: '16 6 * * *'
+#  schedule:
+#    - cron: '16 6 * * *'
   push:
     branches: [ "main" ]
   pull_request:
