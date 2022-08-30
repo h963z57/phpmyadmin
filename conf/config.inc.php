@@ -27,8 +27,8 @@ $i++;
 /* Authentication type */
 $cfg['Servers'][$i]['auth_type'] = 'cookie';
 /* Server parameters */
-$cfg['Servers'][$i]['verbose'] = 'Main database';
-$cfg['Servers'][$i]['host'] = 'db.h963z57.com';
+$cfg['Servers'][$i]['verbose'] = 'Main databasess';
+$cfg['Servers'][$i]['host'] = '10.13.10.55';
 $cfg['Servers'][$i]['compress'] = false;
 $cfg['Servers'][$i]['AllowNoPassword'] = false;
 
