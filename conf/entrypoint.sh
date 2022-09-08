@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Connect configuration file"
-cp /tmp/config.inc.php /var/www/html/config.inc.php
+cp /mnt/config.inc.php /var/www/html/config.inc.php
 chown www-data:www-data /var/www/html/config.inc.php
 chmod 400 /var/www/html/config.inc.php
 
