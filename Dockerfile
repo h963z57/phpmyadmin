@@ -31,7 +31,7 @@ RUN cp /usr/share/zoneinfo/Asia/Yekaterinburg /etc/localtime \
 						php8.0-curl \
 						php8.0-mysql \
 						php8.0-pdo \
- 							&& echo "timezone = Asia/Yekaterinburg" >> /etc/php/8.0/php.ini \ 
+ 							&& echo "timezone = Europe/Moscow" >> /etc/php/8.0/php.ini \ 
 								&& wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-english.tar.gz \
 								&& tar xvf phpMyAdmin-latest-english.tar.gz --strip-components=1 -C /var/www/html/ \
 								&& rm phpMyAdmin-latest-english.tar.gz \
